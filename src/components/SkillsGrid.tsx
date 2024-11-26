@@ -28,13 +28,14 @@ const skillsData = {
     title: "Machine Learning & Data Science",
     icon: Brain,
     skills: [
-      { name: "Machine Learning Algorithms" },
+      { name: "ML Algorithms" },
       { name: "Deep Learning" },
       { name: "Artificial Neural Networks" },
-      { name: "Supervised & Unsupervised Learning" },
+      { name: "Supervised Learning" },
+      { name: "Unsupervised Learning" },
       { name: "Clustering" },
       { name: "Classification" },
-      { name: "NLP (Natural Language Processing)" },
+      { name: "NLP" },
       { name: "XGBoost" },
       { name: "Prompt Engineering" }
     ]
@@ -60,7 +61,8 @@ const skillsData = {
       { name: "Hugging Face" },
       { name: "spaCy" },
       { name: "Pandas" },
-      { name: "NumPy" }
+      { name: "NumPy" },
+      { name: "Seaborn" }
     ]
   }
 };

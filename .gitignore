@@ -7,18 +7,68 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Dependency directories
+node_modules/
+.pnpm/
+.bower_components/
+
+# Build output
+dist/
+dist-ssr/
+build/
 *.local
 
-# Editor directories and files
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage/
+.nyc_output/
+.vscode-test/
+
+# System files
+.DS_Store
+Thumbs.db
+*.sw?
+
+# IDE and Editor directories/files
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+
+# Mac-specific files
+.AppleDouble
+.LSOverride
+
+# Linux/Mac temporary files
+.*~
+*.swp
+*.swo
+.*.kate-swp
+
+# Windows-specific files
+*.lnk
+*.lock
+
+# Git-related files
+.git/
+.gitignore
+
+# Optional build cache
+.cache/
+output/
+
+# Vite-specific files
+.vite/
+
+# Coverage files
+*.lcov
